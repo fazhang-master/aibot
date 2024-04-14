@@ -1,0 +1,859 @@
+Watching for file changes with StatReloader
+2024-04-09 15:07:23,108 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-09 15:07:23,108 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-09 15:07:23,354 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+[09/Apr/2024 15:07:36] "GET /downloads HTTP/1.1" 301 0
+2024-04-09 15:07:36,740 - modelscope - WARNING - Model revision not specified, use revision: v1.1.9
+[09/Apr/2024 15:07:37] "GET /downloads/ HTTP/1.1" 200 45
+[10/Apr/2024 00:48:21] "GET /downloads HTTP/1.1" 301 0
+2024-04-10 00:48:21,956 - modelscope - WARNING - Model revision not specified, use revision: v1.1.9
+[10/Apr/2024 00:48:22] "GET /downloads/ HTTP/1.1" 200 45
+The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+Try importing flash-attention for faster inference...
+Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 09, 2024 - 15:07:24
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.20it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.17it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.18it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.14it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.73it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.56it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 03:19:53] "POST /tuili/ HTTP/1.1" 200 45
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 2097280 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.70it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 16.51it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 21.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 19.24it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.22it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.20it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.18it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.75it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.65it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.57it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 03:28:44] "POST /tuili/ HTTP/1.1" 200 45
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.53it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 15.74it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 20.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.31it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.20it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.17it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.15it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.72it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.60it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.53it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 03:31:28] "POST /tuili/ HTTP/1.1" 200 45
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.64it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 16.08it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 20.96it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.91it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.11it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.15it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.13it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.46it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 03:32:17] "POST /tuili/ HTTP/1.1" 200 168
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.02it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 15.16it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 20.19it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.02it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.13it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.16it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.16it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.12it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.45it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 03:34:48] "POST /tuili/ HTTP/1.1" 200 625
+/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+INFO:django.utils.autoreload:/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-04-10 10:43:49,866 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-10 10:43:49,878 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-10 10:43:50,061 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+Try importing flash-attention for faster inference...
+Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 10, 2024 - 10:43:51
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.20it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.17it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.16it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.13it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.53it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 10:44:28] "POST /tuili/ HTTP/1.1" 200 119
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 2097280 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.40it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 15.95it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 21.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.90it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.12it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.14it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.16it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.11it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.61it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.38it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.42it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[10/Apr/2024 10:46:04] "POST /tuili/ HTTP/1.1" 200 185
+/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+INFO:django.utils.autoreload:/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/urls.py", line 19, in <module>
+    from app01 import views
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 4, in <module>
+    from models import ChatHistory
+ModuleNotFoundError: No module named 'models'
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 15, in <module>
+    import MySQLdb as Database
+ModuleNotFoundError: No module named 'MySQLdb'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 87, in raise_last_exception
+    raise _exception[1]
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/contrib/auth/models.py", line 3, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 57, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/options.py", line 243, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/urls.py", line 19, in <module>
+    from app01 import views
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 4, in <module>
+    from models import ChatHistory
+ModuleNotFoundError: No module named 'models'
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/urls.py", line 19, in <module>
+    from app01 import views
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 4, in <module>
+    from models import ChatHistory
+ModuleNotFoundError: No module named 'models'
+/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+2024-04-10 13:01:29,977 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-10 13:01:29,977 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-10 13:01:29,994 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 10, 2024 - 13:01:30
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-10 13:01:32,270 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-10 13:01:32,270 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-10 13:01:32,287 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Watching for file changes with StatReloader
+2024-04-10 13:02:05,342 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-10 13:02:05,342 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-10 13:02:05,359 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Internal Server Error: /tuili/
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 27, in tuili
+    obj = ChatHistory.objects.create(**request.POST)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2742, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got ['1'].
+[10/Apr/2024 13:02:19] "POST /tuili/ HTTP/1.1" 500 146221
+Watching for file changes with StatReloader
+2024-04-11 08:28:10,196 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 08:28:10,196 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 08:28:10,214 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Watching for file changes with StatReloader
+2024-04-11 08:28:22,119 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 08:28:22,120 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 08:28:22,136 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Error: That port is already in use.
+Watching for file changes with StatReloader
+2024-04-11 08:29:03,022 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 08:29:03,023 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 08:29:03,040 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+Try importing flash-attention for faster inference...
+Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 08:29:03
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.16it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.10it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.11it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.07it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.49it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.43it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[11/Apr/2024 08:29:31] "POST /tuili/ HTTP/1.1" 200 964
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 2097280 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 16.06it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 21.13it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.95it/s]
+[11/Apr/2024 08:39:40] "POST /tuili/ HTTP/1.1" 200 1136
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.19it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.13it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.13it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.09it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.47it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:00, 24.68it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:00<00:00, 24.93it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 25.18it/s]
+[11/Apr/2024 08:45:45] "POST /tuili/ HTTP/1.1" 200 1841
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  6.00it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 16.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 21.11it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 19.17it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.10it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.08it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.07it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.05it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.60it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.34it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:00, 24.58it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:00<00:00, 23.73it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 23.86it/s]
+[11/Apr/2024 08:48:04] "POST /tuili/ HTTP/1.1" 200 3155
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.72it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 14.02it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 17.95it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 16.24it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  3.81it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  3.81it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  3.81it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:01<00:01,  3.76it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  8.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  5.91it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[11/Apr/2024 08:49:43] "POST /tuili/ HTTP/1.1" 200 3435
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.84it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 13.88it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 18.21it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 16.36it/s]
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  3.97it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  3.98it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  3.97it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:01<00:01,  3.97it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.02it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.19it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+[11/Apr/2024 08:56:04] "GET /downloads HTTP/1.1" 301 0
+2024-04-11 08:56:05,069 - modelscope - WARNING - Model revision not specified, use revision: v1.1.9
+[11/Apr/2024 08:56:05] "GET /downloads/ HTTP/1.1" 200 61
+[11/Apr/2024 08:56:59] "POST /tuili/ HTTP/1.1" 200 734
+[11/Apr/2024 09:13:41] "OPTIONS /tuili HTTP/1.1" 301 0
+[11/Apr/2024 09:16:47] "OPTIONS /tuili HTTP/1.1" 301 0
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 2097280 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 13.77it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 18.96it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 16.68it/s]
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+INFO:django.utils.autoreload:/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Traceback (most recent call last):
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 22, in <module>
+    main()
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py", line 56
+    http://localhost:5173;
+        ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 22, in <module>
+    main()
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py", line 56
+    http://localhost:5173;
+        ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+2024-04-11 09:35:17,169 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:35:17,169 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:35:17,186 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+[11/Apr/2024 09:35:22] "GET /downloads HTTP/1.1" 301 0
+2024-04-11 09:35:23,824 - modelscope - WARNING - Model revision not specified, use revision: v1.1.9
+[11/Apr/2024 09:35:24] "GET /downloads/ HTTP/1.1" 200 61
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:35:17
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:36:13,202 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:36:13,202 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:36:13,220 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:36:13
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:36:18,540 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:36:18,541 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:36:18,557 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+[11/Apr/2024 09:36:54] "OPTIONS /tuili HTTP/1.1" 200 0
+Internal Server Error: /tuili
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to s4.s100.vip:11626/tuili/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[11/Apr/2024 09:36:54] "POST /tuili HTTP/1.1" 500 76651
+Internal Server Error: /tuili
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to s4.s100.vip:11626/tuili/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[11/Apr/2024 09:37:04] "POST /tuili HTTP/1.1" 500 76651
+[11/Apr/2024 09:40:35] "OPTIONS /tuili HTTP/1.1" 200 0
+[11/Apr/2024 09:42:04] "OPTIONS /tuili HTTP/1.1" 200 0
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:36:18
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:44:52,718 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:44:52,718 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:44:52,735 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Bad Request: /tuili
+[11/Apr/2024 09:45:13] "OPTIONS /tuili HTTP/1.1" 400 75494
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:44:52
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:46:23,097 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:46:23,097 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:46:23,114 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:46:23
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:46:25,373 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:46:25,373 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:46:25,390 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Bad Request: /tuili
+[11/Apr/2024 09:46:45] "OPTIONS /tuili HTTP/1.1" 400 75494
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:46:25
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+2024-04-11 09:47:00,096 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 09:47:00,096 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 09:47:00,115 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Bad Request: /tuili/
+[11/Apr/2024 09:51:58] "POST /tuili/ HTTP/1.1" 400 74789
+Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 's4.s100.vip:11626'. You may need to add 's4.s100.vip' to ALLOWED_HOSTS.
+Bad Request: /tuili/
+[11/Apr/2024 09:54:28] "POST /tuili/ HTTP/1.1" 400 74789
+/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 09:47:00
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Traceback (most recent call last):
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 22, in <module>
+    main()
+  File "/home/zf/Desktop/QWeen/tyqwdmx/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/management/__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/zf/Desktop/QWeen/tyqwdmx/tyqwdmx/settings.py", line 28, in <module>
+    ALLOWED_HOSTS = [s4.s100.vip]
+NameError: name 's4' is not defined
+Watching for file changes with StatReloader
+2024-04-11 11:23:37,305 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 11:23:37,305 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 11:23:37,322 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+Try importing flash-attention for faster inference...
+Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2024 - 11:23:37
+Django version 4.2.11, using settings 'tyqwdmx.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  4.17it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  4.13it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:00<00:01,  4.09it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00,  4.07it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:00,  4.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  9.48it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:01<00:00,  6.43it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Internal Server Error: /tuili/
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 47, in tuili
+    if serializers.is_valid():
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+ERROR:django.request:Internal Server Error: /tuili/
+Traceback (most recent call last):
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/zf/Desktop/QWeen/tyqwdmx/app01/views.py", line 47, in tuili
+    if serializers.is_valid():
+  File "/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+[11/Apr/2024 11:24:05] "POST /tuili/ HTTP/1.1" 500 112356
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Try importing flash-attention for faster inference...
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+WARNING:transformers_modules.Qwen-7B-Chat.modeling_qwen:Warning: import flash_attn fail, please install FlashAttention to get higher efficiency https://github.com/Dao-AILab/flash-attention
+/home/zf/programs/miniconda3/envs/tyqw/lib/python3.9/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 2097280 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  5.13it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:00<00:00, 15.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:00<00:00, 20.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 18.14it/s]
+Watching for file changes with StatReloader
+2024-04-11 16:59:11,177 - modelscope - INFO - PyTorch version 1.13.1+cu117 Found.
+2024-04-11 16:59:11,178 - modelscope - INFO - Loading ast index from /home/zf/.cache/modelscope/ast_indexer
+2024-04-11 16:59:11,252 - modelscope - INFO - Loading done! Current index file version is 1.13.3, with md5 9641600a3d008e0c77ab294c2c58c6ea and a total number of 972 components indexed
+The model is automatically converting to bf16 for faster inference. If you want to disable the automatic precision, please manually add bf16/fp16/fp32=True to "AutoModelForCausalLM.from_pretrained".
+Try importing flash-attention for faster inference...
+Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm
+Performing system checks...
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:01,  3.97it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:01,  3.67it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:06<00:13,  2.78s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:12<00:16,  4.05s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:12<00:07,  2.65s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:12<00:00,  1.06s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:12<00:00,  1.57s/it]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
