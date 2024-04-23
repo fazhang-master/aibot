@@ -97,9 +97,9 @@ WSGI_APPLICATION = 'tyqwdmx.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tyqw',  # 数据库名字
+        'NAME': 'aibot',  # 数据库名字
         'USER': 'root',
-        'PASSWORD': '1226',
+        'PASSWORD': 'aibot2024',
         'HOST': '127.0.0.1',  # 那台机器安装了MySQL
         'PORT': 3306,
     }

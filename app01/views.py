@@ -10,14 +10,14 @@ from modelscope import GenerationConfig
 
 import os
 
-tokenizer = AutoTokenizer.from_pretrained("./model/qwen/Qwen-7B-Chat", trust_remote_code=True)
+#tokenizer = AutoTokenizer.from_pretrained("./model/qwen/Qwen-7B-Chat", trust_remote_code=True)
 
-model = AutoModelForCausalLM.from_pretrained(
-    "./model/qwen/Qwen-7B-Chat", 
-    device_map="auto",
-    trust_remote_code=True, 
+#model = AutoModelForCausalLM.from_pretrained(
+#    "./model/qwen/Qwen-7B-Chat", 
+ #   device_map="auto",
+ #   trust_remote_code=True, 
     # bf16=True
-    ).eval()
+ #   ).eval()
 
 # Create your views here.
 class ChatSerializer(serializers.Serializer):
